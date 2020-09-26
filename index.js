@@ -15,22 +15,23 @@ const updateDisplay = () => {
 }
 
 const checkInput = () => {
-    console.log(inputEmoji.value)
-    if (inputEmoji.value) {
         inputEmoji.value = "";
         updateDisplay();
-    }
 }
 
 updateDisplay()
 
 addStartBtn.addEventListener("click", () => {
-    emojis.unshift(inputEmoji.value);
+    if(inputEmoji.value){
+        emojis.unshift(inputEmoji.value);
+    };
     checkInput();
 })
 
 addEndBtn.addEventListener("click", () => {
-    emojis.push(inputEmoji.value);
+    if(inputEmoji.value){
+        emojis.push(inputEmoji.value)
+    };
     checkInput();
 })
 

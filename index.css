@@ -3,7 +3,6 @@ html {
 }
 body {
     margin: 0;
-    --webkit-font-smoothing: antialiased;
     background: rgb(22,48,87);
     background: linear-gradient(135deg, rgba(22,48,87,1) 0%, rgba(38,83,150,1) 35%, rgba(19,30,97,1) 100%);
     text-align: center;
@@ -36,6 +35,7 @@ a {
     height:30px;
     border-radius: 10px;
     border: none;
+    outline:none;
 }
 
 .buttons {
@@ -55,6 +55,7 @@ a {
     border: none;
     color: white;
     font-weight: bold;
+    outline:none;
 }
 .addBtns {
     background-color: #965D35;

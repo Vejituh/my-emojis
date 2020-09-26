@@ -1,4 +1,4 @@
-const emojis = ["🕺", "⚽", "🎮"];
+const emojis = ["🕺", "⚽", "🎮", "🐻"];
 
 const showEmojis = document.getElementById("showEmojis")
 const inputEmoji = document.getElementById("inputEmoji");

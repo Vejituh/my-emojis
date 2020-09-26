@@ -6,17 +6,24 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        <h1>Your Emojis</h1>
-        <p>Add emojis to describe your interest and likes</p>
-        <!-- Emojis go here -->
-        <p id="showEmojis"></p>
-        <input id="inputEmoji" type="text" placeholder="Enter an emoji 🕺">
-        <div class="buttons">
-            <button id="addEmojiStart">Add to the start</button>
-            <button id="addEmojiEnd">Add to the end</button>
-            <button id="removeEmojiStart">Remove from the start</button>
-            <button id="removeEmojiEnd">Remove from the end</button>
-        </div>
+        <main>
+            <h1>Your Emojis</h1>
+            <p>Add 🕺 to describe your interests</p>
+            <p>You can use <a target="_blank" href="https://emojipedia.org/">emojipedia</a> to get an emoji</p>
+            <!-- Emojis go here -->
+            <p id="showEmojis"></p>
+            <input id="inputEmoji" type="text" placeholder="Enter an emoji 🕺">
+            <div class="buttons">
+                <button class="btns addBtns" id="addEmojiStart">Add to the start</button>
+                <button class="btns addBtns" id="addEmojiEnd">Add to the end</button>
+                <button class="btns removeBtns" id="removeEmojiStart">Remove from the start</button>
+                <button class="btns removeBtns" id="removeEmojiEnd">Remove from the end</button>
+            </div>
+        </main>
+        <footer>
+            <p>Made by <a href="https://www.linkedin.com/in/rafael-gomes-1402/">Rafael Gomes</a></p>
+            <a target="_blank" href="https://github.com/rafaelg1402">Github</a>
+        </footer>
         <script src="index.js"></script>
     </body>
 </html>

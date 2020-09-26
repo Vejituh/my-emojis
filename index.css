@@ -3,6 +3,7 @@ html {
 }
 body {
     margin: 0;
+    --webkit-font-smoothing: antialiased;
     background: rgb(22,48,87);
     background: linear-gradient(135deg, rgba(22,48,87,1) 0%, rgba(38,83,150,1) 35%, rgba(19,30,97,1) 100%);
     text-align: center;
@@ -11,6 +12,7 @@ body {
 h1{
     color: #7FFFD4;
     letter-spacing: 1.5px;
+    font-weight: normal;
 }
 p {
     font-size: 1.4rem;
@@ -20,7 +22,6 @@ p {
 a {
     text-decoration: none;
     color: #7FFFD4;
-    font-weight: bold;
 }
 
 #showEmojis {
@@ -32,6 +33,9 @@ a {
 #inputEmoji {
     margin-bottom: 30px;
     text-align: center;
+    height:30px;
+    border-radius: 10px;
+    border: none;
 }
 
 .buttons {
